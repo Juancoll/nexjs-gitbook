@@ -112,5 +112,5 @@ await wsapi.baseContract.methodA();
 | nexjs-ws.demo-project.client-vuetify-dynamic-router |  |  |
 | nexjs-ws.demo-project.client-nuxtjs |  |  |
 
-## Nexcs - Websocket \(in process\)
+
 
