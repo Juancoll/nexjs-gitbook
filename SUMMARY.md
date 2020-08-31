@@ -7,8 +7,8 @@
   * [Basic](examples/basic/README.md)
     * [Server](examples/basic/server.md)
     * [Client](examples/basic/client.md)
-  * [Vuetify](examples/nestjs-vuetify/README.md)
-    * [Server](examples/nestjs-vuetify/server.md)
-    * [Client](examples/nestjs-vuetify/client.md)
+  * [Vuetify](examples/vuetify/README.md)
+    * [Server](examples/vuetify/server.md)
+    * [Client](examples/vuetify/client.md)
   * [Nuxt](examples/nuxt.md)
 
