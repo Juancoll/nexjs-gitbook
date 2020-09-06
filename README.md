@@ -1,4 +1,4 @@
-# @nexjs
+# @nexjs-ws
 
 ## websockets
 
@@ -12,12 +12,7 @@ We can response to almost any problems in a effective way with a combination of 
 * Synchronized calls
 * Notifications by Events
 
-I start developing the protocol to communicate local Webs or \(mobile apps\) to a c\# Engine as the User Interface for Shine Product \([see more](https://public.juancoll.me/programming/shine)\).
-
-* **nexjs - websocket** is used in frontend/Backend apps
-* **nexcs - websocket** is used in local c\# application controlled by mobile, desktop or web applications.
-
-## Nexjs - Websocket <a id="nexjs-websocket"></a>
+## Nexjs-ws <a id="nexjs-websocket"></a>
 
 ### the idea <a id="the-idea"></a>
 
@@ -87,7 +82,7 @@ await wsapi.baseContract.methodA();
 //That's all !!! 
 ```
 
-### Main repositories
+### npm pakages
 
 | Repository name | Links | Description |
 | :--- | :--- | :--- |
@@ -95,22 +90,22 @@ await wsapi.baseContract.methodA();
 | @nexjs/wsclient | [github](https://github.com/Juancoll/nexjs-wsclient), [npm](https://www.npmjs.com/package/@nexjs/wsclient) | Client Base Class \(required by all clients\) |
 | @nexjs/cli | [github](https://github.com/Juancoll/nexjs-cli), [npm](https://www.npmjs.com/package/@nexjs/cli) | Command line to generate/update Clients |
 
-### Development repositories
+### Dev repositories
 
 | Repository name | Link | Description |
 | :--- | :--- | :--- |
-| nexjs-ws.dev-project.server | [github](https://github.com/Juancoll/nexjs-ws.dev-project.server) | Project with @nexjs/wsserver in source code \(debuggable\) |
-| nexjs-ws.dev-project.client | [github](https://github.com/Juancoll/nexjs-ws.dev-project.client) | Project with @nexjs/wsclient in source code \(debuggable\) |
+| nexjs-ws.dev.server | [github](https://github.com/Juancoll/nexjs-ws.dev-project.server) | Project with @nexjs/wsserver as source code \(debuggable\) |
+| nexjs-ws.dev.client | [github](https://github.com/Juancoll/nexjs-ws.dev-project.client) | Project with @nexjs/wsclient as source code \(debuggable\) |
 
 ### Demo repositories
 
 | Repository name | Link | Description |
 | :--- | :--- | :--- |
-| nexjs-ws.demo-project.server-base | [github](https://github.com/Juancoll/nexjs-ws.demo-project.server-base) | simpliest server  |
-| nexjs-ws.demo-project.server-nestjs |  | nestjs, mongoDb |
-| nexjs-ws.demo-project.client-vue | [github](https://github.com/Juancoll/nexjs-ws.demo-project.client-vue) |  |
-| nexjs-ws.demo-project.client-vuetify-dynamic-router |  |  |
-| nexjs-ws.demo-project.client-nuxtjs |  |  |
+| nexjs-ws.demo.server.base | [github](https://github.com/Juancoll/nexjs-ws.demo-project.server-base) | minimal express server  |
+| nexjs-ws.demo.server.nestjs | [github](https://github.com/Juancoll/nexjs-ws.demo.server.nestjs) | nestjs, mongoDb |
+| nexjs-ws.demo.client.vue | [github](https://github.com/Juancoll/nexjs-ws.demo.client.vue) | minimal client |
+| nexjs-ws.demo.client.vuetify | [github](https://github.com/Juancoll/nexjs-ws.demo.client.vuetify) | client with auth, http api and ws api |
+| nexjs-ws.demo.client.nuxt | [github](https://github.com/Juancoll/nexjs-ws.demo.client.nuxt) | client with auth, http api and ws api |
 
 
 

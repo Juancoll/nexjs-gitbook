@@ -1,6 +1,6 @@
 # Table of contents
 
-* [@nexjs](README.md)
+* [@nexjs-ws](README.md)
 * [How to start](how-to-start.md)
 * [Documentation](documentation/README.md)
   * [Server](documentation/server.md)
