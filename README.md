@@ -1,6 +1,6 @@
 # @nexjs-ws
 
-## websockets
+## Introduction
 
 We use websocket as an Inter program or module communication protocol. I develop a custom protocol over Websocket that implement this 2 Patterns
 
@@ -12,9 +12,7 @@ We can response to almost any problems in a effective way with a combination of 
 * Synchronized calls
 * Notifications by Events
 
-## Nexjs-ws <a id="nexjs-websocket"></a>
-
-### the idea <a id="the-idea"></a>
+## the idea
 
 Separate in server the Functionality \(Contract\) from the call protocol and transport \(Rest API, Websocket TCP IP, HTTP, ...\) and create or update typed clients automaticaly. the main goals are
 
@@ -28,7 +26,7 @@ Separate in server the Functionality \(Contract\) from the call protocol and tra
 
 ![](.gitbook/assets/ecosystem.jpg)
 
-### Code overview 
+## Code overview 
 
 * Only Implements the server
 * automatic client generation \(ts or c\#\)
@@ -81,6 +79,8 @@ await wsapi.baseContract.methodA();
 
 //That's all !!! 
 ```
+
+## Repositories
 
 ### npm pakages
 
