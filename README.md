@@ -14,15 +14,15 @@ We can response to almost any problems in a effective way with a combination of 
 
 ## the idea
 
-Separate in server the Functionality \(Contract\) from the call protocol and transport \(Rest API, Websocket TCP IP, HTTP, ...\) and create or update typed clients automaticaly. the main goals are
+Separate in server the Functionality \(Contract\) from the call protocol and transport \(Rest API, Websocket TCP IP, HTTP, ...\) and create or update typed clients automatically. the main goals are
 
 * Alway typed \(Client and Server\)
 * Never implement a client
 * Any update generate errors in code
-* Separte functions \(contracts\) from transports and protocols. You van bind multiples protocols and transports on one server withoutcode duplication.
+* Separate functions \(contracts\) from transports and protocols. You van bind multiples protocols and transports on one server without code duplication.
 * Realtime Applications: the combination of Publish/Subscribe and Rest is required for an easy implementation.
-* Realy simplified server code.
-* Authentication separated from funcionality
+* Really simplified server code.
+* Authentication separated from functionality
 
 ![](.gitbook/assets/ecosystem.jpg)
 
