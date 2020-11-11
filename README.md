@@ -93,8 +93,6 @@ await wsapi.baseContract.methodA();
 //That's all !!! 
 ```
 
-
-
 ## Repositories
 
 ### npm pakages
