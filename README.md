@@ -31,6 +31,8 @@ Separate in server the Functionality \(Contract\) from the call protocol and tra
 * Only Implements the server
 * automatic client generation \(ts or c\#\)
 
+### server
+
 ```typescript
 // ----------------------------------------------------------------------------
 // [ Functionalities ]
@@ -38,7 +40,8 @@ class AContract {
 
   // [ decorators ]
   @Hub({ service: 'aContract', ...}) // Publish/Subscribe Protocol over websocket
-  onUpdate = new HubEvent();         // Emitter custom class - only to unificate event system
+  onUpdate = new HubEvent();         // Emitter custom class - only to unificate 
+                                     // event system
 
   // [ decorators ]
   @Rest({ service: 'aContract',...}) // Request/Response Protocol over websocket
@@ -57,11 +60,21 @@ const wss = new WSServer<User, Token>();  // create Websocket protocols
 wss.register(new AContract ());           // register class 
 wss.init(new SocketIOServer(ioServer));   // initialize with a socket.io server
 
+```
+
+### cli \(typed api client creation\)
+
+```typescript
 // ----------------------------------------------------------------------------
 // in command line (create api client)
 npm install @nexjs/cli -g
 nexjs ts ws up-client -s ./[server-folder] -o ./[client-folder]/[api-folder]
 
+```
+
+### client
+
+```typescript
 // ----------------------------------------------------------------------------
 // in client (after automatic generation)
 const wsapi = new WSApi<User, Token>(new SocketIOClient()); // create client
@@ -79,6 +92,8 @@ await wsapi.baseContract.methodA();
 
 //That's all !!! 
 ```
+
+
 
 ## Repositories
 
